@@ -28,6 +28,8 @@ public class Day1 {
         System.out.println("Skaitlu reizinājums ir " + multiply);
         System.out.println("Skaitlu dalījums ir " + divide);
         
+        System.out.println("");
+        
         
         
         
