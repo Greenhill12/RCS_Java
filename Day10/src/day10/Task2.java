@@ -8,6 +8,8 @@ public class Task2 extends javax.swing.JPanel {
         initComponents();
     }
     
+    
+    
     private String name;
     private String name2;
     
@@ -44,7 +46,7 @@ public class Task2 extends javax.swing.JPanel {
         name2 = "";
         input.setEditable(true);
         alert.setText("");
-        but1.setBackground(new Color (240, 240, 240));
+        but1.setBackground(new Color (204,255,255));
         
         check1.setText("");     check1.setBackground(new Color (240,240,240));
         check2.setText("");     check2.setBackground(new Color (240,240,240));
@@ -622,6 +624,7 @@ public class Task2 extends javax.swing.JPanel {
         check25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         check25.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        but1.setBackground(new java.awt.Color(204, 255, 255));
         but1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         but1.setText("SAGLABĀT VĀRDU");
         but1.addActionListener(new java.awt.event.ActionListener() {
@@ -632,6 +635,7 @@ public class Task2 extends javax.swing.JPanel {
 
         alert.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
+        but2.setBackground(new java.awt.Color(204, 255, 255));
         but2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         but2.setText("PĀRBAUDĪT");
         but2.addActionListener(new java.awt.event.ActionListener() {
